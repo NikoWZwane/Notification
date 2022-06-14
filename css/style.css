@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: opx;
+    font-family: sans-serif;
+}
+body{
+    background: #4996ca;
+
+}
+.action{
+    position: fixed;
+    top: 20px;
+    right: 30px;
+
+}
+.action .profile{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    cursor: pointer;
+    overflow: hidden;
+
+}
+
+.action .menu{
+    position: absolute;
+    top: 50px;
+    right: -15px;
+    padding: 10px 10px;
+    width: 300px;
+    background: #f6f6f6;
+    box-sizing: 2px 25px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    transition: 0.5s;
+}
+.action .menu ul li{
+   list-style: none;
+   padding: 15px 5;
+   direction: flex;
+   align-items: center;
+
+
+}
+.action .menu ul li img{
+
+   max-width: 30px;
+   margin-right: 10px;
+   opacity: 0.5;
+   transition: 0.5s;
+}
+h3{
+    text-align: center;
+}
